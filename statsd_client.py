@@ -1,7 +1,7 @@
 from statsd import statsd
 from random import random
 statsd.connect(host='localhost', port=8125)
-import time, random
+import time
 
 while True:
     random_number = random.randint(1000, 1200)
